@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 import plotly.express as px
 
 #Import file csv
-df = pd.read_csv("data_sepeda_bersih.csv")
+df = pd.read_csv("dashboard/data_sepeda_bersih.csv")
 
 #Judul Dashboard
 st.title("Dashboard Analisis Bike Sharing Dataset Harian")
